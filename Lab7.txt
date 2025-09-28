@@ -1,0 +1,21 @@
+1. Model-Based Algorithms:
+
+These algorithms learn or use a model of the environment—specifically, the state transition probabilities and reward function.
+
+They can simulate future states to plan the best actions.
+
+Example: Value Iteration or Policy Iteration in a Markov Decision Process (MDP).
+
+Pros: Can plan ahead, adapt quickly to changes.
+
+Cons: Requires knowledge of the environment or needs to learn the model, which can be complex.
+
+2. Model-Free Algorithms:
+
+These algorithms do not learn a model of the environment. Instead, they learn the value of actions or policies directly through experience.
+
+Example: Q-Learning and SARSA.
+
+Pros: Simpler, can work in unknown environments.
+
+Cons: Usually needs lots of trial-and-error experience, slower to adapt.
